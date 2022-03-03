@@ -1,0 +1,468 @@
+/*HOME Y NAV*/
+.body        { background: linear-gradient(#ABC1FF, #FFFFFF) ;
+               background-repeat: no-repeat;
+}
+
+
+nav ul {/*CONTENEDOR*/
+        display: flex;
+        ;
+        
+    }
+
+nav ul li{/*item*/
+        padding: 15px;
+}
+
+li { list-style-type:none;
+    border: 2px solid white;
+    font-family: Ubuntu-Bold_;
+   
+  
+    ;
+
+    
+}
+
+li:hover {
+    background-color:#ABC1FF;
+    
+}
+a:hover {
+    color:#ffffff
+}
+.menu {
+      position: sticky;
+      top: 0px;
+    }
+li
+
+
+a { text-decoration: none; }
+
+
+.contenedor__principal{ display:flex;
+                        flex-direction:column;
+                        }
+
+.contenedor__secundario{ display:flex;
+                         flex-direction:column;
+                         flex-wrap:wrap;
+                         justify-content:space-around;
+                         align-items:center;
+                        }
+.contenedor__footer{display:flex;
+                    flex-direction:column;
+                    flex-wrap: wrap;
+                    justify-content:space-evenly;
+                    align-items: center;
+                    
+}                                       
+
+.imagen__Principal  {
+            display:block;
+            border-style:dashed;
+            border-radius: 480px;
+            border-color: #FFFFFF;
+            
+            
+          
+            }
+
+@font-face {
+             font-family:'zenantique-regular';
+            src: url('ZenAntique-Regular.ttf')
+            }  
+@font-face {
+                font-family:'Ubuntu-Regular';
+               src: url('Ubuntu-Regular.ttf')
+               }           
+
+@font-face {
+font-family:'Ubuntu-Bold_';
+src: url('ubuntu-bold_.ttf')
+               }                  
+
+.texto__principal       { 
+            display: block;
+
+            color:#FF7596;
+            font-size: 300px;
+            font-family:zenantique-regular;
+            
+            
+           
+            }
+
+.texto__secundario { 
+            display: block;
+            color:#FF7596;
+            font-size:50pt;
+            font-family:Ubuntu-Regular;       
+            
+            }
+            
+.Footer__1 {
+            color: #AFBAD8;
+            display: block;
+            font-size: 23pt;
+            font-family:Ubuntu-Regular;
+          
+            }   
+            
+.Footer__2 {
+             color: #AFBAD8;
+             font-size: 15pt;
+             font-family:Ubuntu-Regular;
+             
+            }
+.Footer__botones{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content:space-between;
+            width: 400px;
+            margin-bottom: 10px;            
+            }
+
+.contenedor__principalC {display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-items:center;
+                      
+                       
+                    }
+            
+
+/*CONTACTO*/
+
+.body__contacto{ background: linear-gradient(to bottom, #FF7596, #FFFFFF) ;
+              }
+                          
+.contenedor__titulo {
+                display: flex;
+                flex-direction:column;
+                margin: 30px;
+                flex-wrap: wrap;
+                align-items: center;
+               }
+
+.texto__titulo {
+            color: #FFFFFF;
+            font-family:Ubuntu-Regular;
+            font-size: 50px;
+            }
+
+.texto__tituloJapones {
+                color:#FFFFFF;
+                font-family:Ubuntu-Regular;
+                font-size: 30px;
+                position: relative;
+                bottom: 60px;
+               }
+form {
+    font-family:Ubuntu-Bold_;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color:#5f6883;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 200px;
+    border-radius: 5px;  
+    
+}
+
+
+.field {
+    margin: 5px;
+    padding: 10px; 
+    border-color: #FF7596;
+    outline-color: #FF7596;
+    border-style: solid;
+    border: radius 50px;
+    width: 250px;
+
+}
+.field__botones{
+    margin: 5px;
+    width: 20px;
+    height: 20px;   
+}
+
+
+.field2 {
+    margin: 5px;
+    
+    border-color: #FF7596;
+    outline-color: #FF7596;
+    border-style: solid;
+    border: radius 50px;
+    width: 300px;
+    height: 300px;
+    }
+
+.ilustracion_contacto{
+    display: block;
+    position: relative;
+    right: 800px;
+    bottom: 1300px;
+
+}
+
+.contenedor__footer__Contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+    bottom: 1100px}
+
+
+/*NOTICIAS*/
+
+
+
+
+.texto__Noticias{ color: #b44242;
+                  font-family:Ubuntu-Regular;
+                  font-size: 22px;
+                  background-color:rgba(255, 255, 255, 0.5)
+                  
+}
+
+.imagen__noticia{
+
+padding: 10px;
+border-radius: 15px;
+background-color: #FFFFFF;
+
+}
+
+
+
+
+.contenedor__big
+{ display: flex;
+    flex-wrap: wrap;
+   flex-direction: column;
+   justify-content:center;
+   align-items: flex-start;
+   align-content: center;
+
+}
+
+
+.contenedor__principalN {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-content:space-between;
+
+}
+
+.texto__secundarioN {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-content:space-between;
+    margin-left: 40px;
+}
+
+.Clima{ font-family: Ubuntu-Bold_;
+
+    
+    color: #ffff;
+    display: inline;
+    float:right;
+    
+    padding:0px;
+    position:relative;
+    bottom: 740px;
+    right: 50px;
+    border: #FFFFFF;
+    border-style: dashed;
+    border-width: 3px;
+    padding: 4px;
+    height: 320px;
+
+    
+    
+}
+
+.temperatura__titulos{ 
+    font-family: Ubuntu-Bold_;
+    font-style: oblique;
+}
+
+.temperatura_data{
+font-family:Ubuntu-Regular;
+
+}
+
+.texto__clima {
+    font-family: Ubuntu-Bold_;
+    color: #FFFFFF;
+    size: 20px;
+    position: relative;
+    top: 50px;
+}
+.Imagen_sol{ position: relative;
+             top: 40px;
+             left: 95px;
+
+}
+
+
+
+
+/*IDIOMA*/
+
+
+.contenedor__tituloi {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+}
+ 
+.Titulos__Imagenes {
+color: #FFFFFF;
+font-family:Ubuntu-Regular;
+font-size: 30px;
+}
+
+.contenedor__imagentitulo{
+display:flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center; 
+margin: 40px;;
+}
+
+.img {border: #FFFFFF;
+    border-style: dashed;
+padding: 6px;}
+    
+.contenedor_GyT {
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+
+
+}
+
+
+.kata__hira {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center   
+
+}
+
+.iframe{ border:#FF7596;
+         
+         display:flex;
+         flex-direction: column;
+         justify-content:flex-start;
+         align-items:center;
+         align-content: space-around;
+         margin-left: 40px;
+}
+    
+
+.texto__japonesV {
+    font-family: ZenAntique-Regular;
+    font-size: 60px;
+    color:#5f6883;
+}
+
+
+
+.texto__video {
+    color: #FFFFFF;
+    font-family:Ubuntu-Bold_;
+    font-size: 100px;
+ }        
+         
+
+
+.sectioni {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*POSTALES*/
+
+
+
+.Texto_postales
+ {
+    color:#5f6883;
+    font-size: 23pt;
+    font-family:Ubuntu-Bold_;
+    display: block;
+    position: relative;
+    top:0px;
+}
+
+
+.Postales { border: #FFFFFF;
+            border-style: dashed;
+            padding: 10px;
+            height: 640px;      
+            width: 960px;
+            margin: 60px;
+           }           
+.columna1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.columna2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Postales__contenedor{
+ display: flex;
+ flex-direction: column;
+
+ align-items: center;
+
+
+    
+}
+
+
+.contenedor__columnas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__footer__C {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 250px;
+    
+}
+
