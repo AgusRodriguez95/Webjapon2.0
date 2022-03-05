@@ -30,9 +30,15 @@ background: linear-gradient(90deg, rgba(255,117,150,1) 0%, rgba(131,201,187,1) 4
 @media screen and (max-width: 300px) {
     .texto_principal{
         font-size: 60px;
-        
+    
     }
-    }
+.contedor__imagenes1{ 
+    font-size: 10px;
+    text-align: center;
+}
+
+  
+}
 .tipografia__blanca { 
     color: #FFFFFF;
 }
