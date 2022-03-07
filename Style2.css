@@ -1,130 +1,137 @@
 .texto__secundario {
-    font-size: 20pt;
+  font-size: 20pt;
 }
 
 .texto_principal {
-    color:#FF7596;
-    font-size: 200px;
-    font-family: 'Zen Maru Gothic', sans-serif;
+  color: #ff7596;
+  font-size: 200px;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .menu {
-    position: sticky;
-    top: 0px;
-  }
+  position: sticky;
+  top: 0px;
+}
 
 .fondo__footer {
-    background: rgb(255,117,150);
-background: linear-gradient(90deg, rgba(255,117,150,1) 0%, rgba(131,201,187,1) 48%, rgba(0,181,255,1) 99%);
+  background: rgb(255, 117, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 117, 150, 1) 0%,
+    rgba(131, 201, 187, 1) 48%,
+    rgba(0, 181, 255, 1) 99%
+  );
 }
 
 .icono__footer {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-.boton__nav { background-color: rgb(255,117,150);
-    background: linear-gradient(90deg, rgba(255,117,150,1) 0%, rgba(131,201,187,1) 48%, rgba(0,181,255,1) 99%);
-
-
+.boton__nav {
+  background-color: rgb(255, 117, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 117, 150, 1) 0%,
+    rgba(131, 201, 187, 1) 48%,
+    rgba(0, 181, 255, 1) 99%
+  );
 }
-@media screen and (max-width: 300px)
-     {
-    .texto_principal{
-        font-size: 60px;
-    }
-    .card-text{ 
-        font-size: 10px;
-
-}
-}
-
-
-.tipografia__blanca { 
-    color: #FFFFFF;
+@media screen and (min-width: 300px) {
+  .texto_principal {
+    font-size: 60px;
+  }
+  .card-text {
+    font-size: 10px;
+  }
 }
 
+@media (max-width: 575.98px) {
+  .nav {
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.tipografia__blanca {
+  color: #ffffff;
+}
 
 .margen__noticias {
-    margin-top:  10px;}
-
-
-
+  margin-top: 10px;
+}
 
 .texto_japones {
-    color:#ffffff;
-    font-family: 'Zen Maru Gothic', sans-serif;
-    font-size: 20pt;
-    }    
-
-.background2 { background-color: rgb(255,117,150);
-    background: linear-gradient(90deg, rgba(255,117,150,1) 0%, rgba(131,201,187,1) 48%, rgba(0,181,255,1) 99%);}
-
-.clima { color: rgba(131,201,187,1)
+  color: #ffffff;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 20pt;
 }
 
+.background2 {
+  background-color: rgb(255, 117, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 117, 150, 1) 0%,
+    rgba(131, 201, 187, 1) 48%,
+    rgba(0, 181, 255, 1) 99%
+  );
+}
 
-
-
-
+.clima {
+  color: rgba(131, 201, 187, 1);
+}
 
 form {
-    font-family:Ubuntu-Bold_;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    color:#5f6883;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 200px;
-    border-radius: 5px;  
-    
+  font-family: Ubuntu-Bold_;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #5f6883;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 200px;
+  border-radius: 5px;
 }
-
 
 .field {
-    margin: 5px;
-    padding: 10px; 
-    border-color: #FF7596;
-    outline-color: #FF7596;
-    border-style: solid;
-    border: radius 50px;
-    width: 250px;
-
+  margin: 5px;
+  padding: 10px;
+  border-color: #ff7596;
+  outline-color: #ff7596;
+  border-style: solid;
+  border: radius 50px;
+  width: 250px;
 }
-.field__botones{
-    margin: 5px;
-    width: 20px;
-    height: 20px;   
+.field__botones {
+  margin: 5px;
+  width: 20px;
+  height: 20px;
 }
-
 
 .field2 {
-    margin: 5px;
-    
-    border-color: #FF7596;
-    outline-color: #FF7596;
-    border-style: solid;
-    border: radius 50px;
-    width: 300px;
-    height: 300px;
+  margin: 5px;
+
+  border-color: #ff7596;
+  outline-color: #ff7596;
+  border-style: solid;
+  border: radius 50px;
+  width: 300px;
+  height: 300px;
 }
 
 .ilustracion {
- size: 150px;
-
-
+  size: 150px;
 }
-
-
 
 li:hover {
-    background-color: #fff1f4;
-    
+  background-color: #fff1f4;
 }
 a:hover {
-    color:#ffffff
+  color: #ffffff;
 }
 .menu {
-      position: sticky;
-      top: 0px;
-    }   
+  position: sticky;
+  top: 0px;
+}
